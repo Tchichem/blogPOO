@@ -1,0 +1,286 @@
+Blog Object
+(
+    [title:Blog:private] => Ma vie de dev web
+    [posts:Blog:private] => Array
+        (
+            [0] => Post Object
+                (
+                    [message:Post:private] => Ceci est mon tout premier post sur mon nouveau blog ! Je vous souhaite la bienvenue à tous ! Je vous raconterai toutes les anecdotes de ma nouvelle vie de développeur
+                    [author:Post:private] => User Object
+                        (
+                            [username:User:private] => admin
+                            [firstname:User:private] => Jean
+                            [lastname:User:private] => Durand
+                        )
+
+                    [views:Post:private] => 152
+                    [comments:Post:private] => Array
+                        (
+                            [0] => Comment Object
+                                (
+                                    [message:Comment:private] => Trop bien ton blog !
+                                    [author:Comment:private] => User Object
+                                        (
+                                            [username:User:private] => Tristandu06
+                                            [firstname:User:private] => Tristan
+                                            [lastname:User:private] => Gabriele
+                                        )
+
+                                    [date:Comment:private] => DateTime Object
+                                        (
+                                            [date] => 2017-04-19 14:10:00.000000
+                                            [timezone_type] => 2
+                                            [timezone] => GMT
+                                        )
+
+                                )
+
+                            [1] => Comment Object
+                                (
+                                    [message:Comment:private] => Merci c'est gentil !
+                                    [author:Comment:private] => User Object
+                                        (
+                                            [username:User:private] => admin
+                                            [firstname:User:private] => Jean
+                                            [lastname:User:private] => Durand
+                                        )
+
+                                    [date:Comment:private] => DateTime Object
+                                        (
+                                            [date] => 2017-04-19 14:24:00.000000
+                                            [timezone_type] => 2
+                                            [timezone] => GMT
+                                        )
+
+                                )
+
+                            [2] => Comment Object
+                                (
+                                    [message:Comment:private] => G rien compri. C toi qui là coder ce blogue ?
+                                    [author:Comment:private] => User Object
+                                        (
+                                            [username:User:private] => CallOfGamer
+                                            [firstname:User:private] => Rémy
+                                            [lastname:User:private] => Simpson
+                                        )
+
+                                    [date:Comment:private] => DateTime Object
+                                        (
+                                            [date] => 2017-04-19 16:21:00.000000
+                                            [timezone_type] => 2
+                                            [timezone] => GMT
+                                        )
+
+                                )
+
+                        )
+
+                    [date:Post:private] => DateTime Object
+                        (
+                            [date] => 2017-04-19 12:50:00.000000
+                            [timezone_type] => 2
+                            [timezone] => GMT
+                        )
+
+                    [title:Post:private] => Bienvenue sur mon Blog
+                )
+
+            [1] => Post Object
+                (
+                    [message:Post:private] => J'ai créé ce blog from scratch durant ma formation DWWM. Il est réalisé en PHP et (pour l'instant) sans base de données.
+                    [author:Post:private] => User Object
+                        (
+                            [username:User:private] => admin
+                            [firstname:User:private] => Jean
+                            [lastname:User:private] => Durand
+                        )
+
+                    [views:Post:private] => 27
+                    [comments:Post:private] => Array
+                        (
+                            [0] => Comment Object
+                                (
+                                    [message:Comment:private] => Bon courage moi g fais une formation de 3 moi, personne na voulut ment baucher
+                                    [author:Comment:private] => User Object
+                                        (
+                                            [username:User:private] => CallOfGamer
+                                            [firstname:User:private] => Rémy
+                                            [lastname:User:private] => Simpson
+                                        )
+
+                                    [date:Comment:private] => DateTime Object
+                                        (
+                                            [date] => 2017-06-04 07:21:00.000000
+                                            [timezone_type] => 2
+                                            [timezone] => GMT
+                                        )
+
+                                )
+
+                            [1] => Comment Object
+                                (
+                                    [message:Comment:private] => Normal, si tu codes comme tu écris ...
+                                    [author:Comment:private] => User Object
+                                        (
+                                            [username:User:private] => Red_Juggernaut
+                                            [firstname:User:private] => Lucie
+                                            [lastname:User:private] => Pernaut
+                                        )
+
+                                    [date:Comment:private] => DateTime Object
+                                        (
+                                            [date] => 2017-06-04 14:41:00.000000
+                                            [timezone_type] => 2
+                                            [timezone] => GMT
+                                        )
+
+                                )
+
+                        )
+
+                    [date:Post:private] => DateTime Object
+                        (
+                            [date] => 2017-04-22 13:21:00.000000
+                            [timezone_type] => 2
+                            [timezone] => GMT
+                        )
+
+                    [title:Post:private] => En savoir plus sur ce blog
+                )
+
+            [2] => Post Object
+                (
+                    [message:Post:private] => C'est le week-end ! Après une semaine bien chargée avec une mise en prod pour un client délicate. Mais comme on dit - ne jamais mettre en prod un vendredi ! Alors on croise les doigts.
+                    [author:Post:private] => User Object
+                        (
+                            [username:User:private] => admin
+                            [firstname:User:private] => Jean
+                            [lastname:User:private] => Durand
+                        )
+
+                    [views:Post:private] => 27
+                    [comments:Post:private] => Array
+                        (
+                            [0] => Comment Object
+                                (
+                                    [message:Comment:private] => Règle d'or - pas de mise en prod le vendredi :D
+                                    [author:Comment:private] => User Object
+                                        (
+                                            [username:User:private] => Red_Juggernaut
+                                            [firstname:User:private] => Lucie
+                                            [lastname:User:private] => Pernaut
+                                        )
+
+                                    [date:Comment:private] => DateTime Object
+                                        (
+                                            [date] => 2017-04-29 14:10:00.000000
+                                            [timezone_type] => 2
+                                            [timezone] => GMT
+                                        )
+
+                                )
+
+                            [1] => Comment Object
+                                (
+                                    [message:Comment:private] => Ou alors faut prévoir de passer un week-end tout pourri ^^
+                                    [author:Comment:private] => User Object
+                                        (
+                                            [username:User:private] => Scavenger
+                                            [firstname:User:private] => Yann
+                                            [lastname:User:private] => Jorès
+                                        )
+
+                                    [date:Comment:private] => DateTime Object
+                                        (
+                                            [date] => 2017-04-29 16:14:00.000000
+                                            [timezone_type] => 2
+                                            [timezone] => GMT
+                                        )
+
+                                )
+
+                        )
+
+                    [date:Post:private] => DateTime Object
+                        (
+                            [date] => 2017-04-26 19:54:00.000000
+                            [timezone_type] => 2
+                            [timezone] => GMT
+                        )
+
+                    [title:Post:private] => Le post du vendredi soir !
+                )
+
+            [3] => Post Object
+                (
+                    [message:Post:private] => La nouvelle version majeure de Vue.js vient d'être annoncée, avec énormément de nouveautés au programme ! Ca devrait envoyer du lourd ! Qui utilise déjà vue.js parmi vous ?
+                    [author:Post:private] => User Object
+                        (
+                            [username:User:private] => admin
+                            [firstname:User:private] => Jean
+                            [lastname:User:private] => Durand
+                        )
+
+                    [views:Post:private] => 27
+                    [comments:Post:private] => Array
+                        (
+                            [0] => Comment Object
+                                (
+                                    [message:Comment:private] => C quoi vujs???
+                                    [author:Comment:private] => User Object
+                                        (
+                                            [username:User:private] => CallOfGamer
+                                            [firstname:User:private] => Rémy
+                                            [lastname:User:private] => Simpson
+                                        )
+
+                                    [date:Comment:private] => DateTime Object
+                                        (
+                                            [date] => 2017-04-28 15:45:00.000000
+                                            [timezone_type] => 2
+                                            [timezone] => GMT
+                                        )
+
+                                )
+
+                            [1] => Comment Object
+                                (
+                                    [message:Comment:private] => Bien mieux qu'Angular, le vrai concurrent de reactJS !
+                                    [author:Comment:private] => User Object
+                                        (
+                                            [username:User:private] => Scavenger
+                                            [firstname:User:private] => Yann
+                                            [lastname:User:private] => Jorès
+                                        )
+
+                                    [date:Comment:private] => DateTime Object
+                                        (
+                                            [date] => 2017-04-29 14:04:00.000000
+                                            [timezone_type] => 2
+                                            [timezone] => GMT
+                                        )
+
+                                )
+
+                        )
+
+                    [date:Post:private] => DateTime Object
+                        (
+                            [date] => 2017-04-26 19:54:00.000000
+                            [timezone_type] => 2
+                            [timezone] => GMT
+                        )
+
+                    [title:Post:private] => Nouvelle version de Vue.js
+                )
+
+        )
+
+    [owner:Blog:private] => User Object
+        (
+            [username:User:private] => admin
+            [firstname:User:private] => Jean
+            [lastname:User:private] => Durand
+        )
+
+)
