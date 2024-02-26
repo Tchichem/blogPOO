@@ -13,13 +13,14 @@ if(!empty($posts[$_GET['id']])){
         echo "<p>".$post->getMessage()."</p>";
         $authors = $post->getAuthor();
         $datepost = $post->getDate();
-        echo "<p><i>par ".$authors->getUsername()."</i>";?>
+        echo "<p><i>par ".$authors->getUsername().", le ".$datepost->format('Y/m/d H:i:s')."</i>";?>
         <h2><p>Commentaires :</p></h2><?php 
         $comments = $post->getComments();
 
     if ($_GET['id'] < count($comments)) {
         foreach($comments as $comment){
-            echo "<div id='commentaires'><fieldset><p><b>".$comment->getAuthor()->getUsername()."</b></p>".$comment->getMessage()."</fieldset></div>"; 
+            $datecomment = $comment->getDate();
+            echo "<div id='commentaires'><fieldset><p><b>".$comment->getAuthor()->getUsername()."</b>, ".$datecomment->format('Y/m/d H:i:s')."</p>".$comment->getMessage()."</fieldset></div>"; 
     }
     } else {
         echo "<p>Pas de commentaire...</p>";
@@ -30,6 +31,8 @@ if(!empty($posts[$_GET['id']])){
 }
 
 //print_r($datepost);
-//print_r($comments);
+//print_r($comment);
 //print_r($authors);
-//echo $datepost->date;
+
+
+
